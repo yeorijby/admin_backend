@@ -2,6 +2,7 @@ import express from "express";
 import Members from "../models/Members.js";
 
 const router = express.Router();
+//console.log("router");       // 제대로 나오는지 함 보자 
 
 router.get("/members", async (req, res) => {
   console.log("fdsafasdfasdfasdfasdfsadfadsfasd");       // 제대로 나오는지 함 보자 
